@@ -1,0 +1,12 @@
+{
+  "short_name": "LS",
+  "name": "LitStar",
+  "icons": [{
+    "src": "img/icon.png",
+    "type": "image/png",
+    "sizes": "192x192"
+  }],
+  "start_url": "/?utm_source=homescreen",
+  "background_color": "#2C3D21",
+  "theme_color": "#35906B"
+}

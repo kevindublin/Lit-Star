@@ -1,0 +1,14 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Kevin Dublin -- Full-Stack Developer -- @parteverything
+
+# THANKS
+
+    Michael, Maddy, & Mark!
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5

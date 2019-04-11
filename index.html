@@ -1,0 +1,77 @@
+<!doctype html>
+<head>
+    <meta charset="utf-8" />
+    <title>LitStar</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="icon" href= "img/icon.svg">
+    <link rel="apple-touch-icon" href="img/icon.png">
+    <link rel="stylesheet" href="./css/main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Pompiere|Raleway" rel="stylesheet">
+</head>
+<body>
+    <div class="MainContent">
+        <div class="Header-left"><h2>LitStar</h2>
+        </div>
+        <div class="InfoPanel">
+            <p id="BarChart-barInfo">
+            </p>
+        </div>
+        <div class="InfoPanel-menu">
+            <ul class="InfoPanel-menu-buttons">
+                <a href="#"><li class="InfoPanel-menuItem">About</li></a>
+                <a href="#"><li class="InfoPanel-menuItem">Export</li></a>
+        </div>
+        <div class="Filter">
+            <h2>Filter</h2>
+            <a class= "Filter-menuItem" href="#">Range: 2009-2018</a>
+            <a class= "Filter-menuItem" href="#">Genre: Poetry</a>
+            <a class= "Filter-menuItem" href="#">Award Type: Best of the Net</a>
+            <a class= "Filter-menuItem" href="#">Medium: Online</a>
+        </div>
+        <div class="BarChart">
+            <div class="BarChart-bar" style="width:100%">
+                <div class="BarChart-barInner" style="width:20%" onClick="
+                document.querySelector('#BarChart-barInfo').textContent =
+                '10 of 81 Best of the Net winners were published here. Submit.';">Blackbird
+                </div>
+            </div>
+            <div class="BarChart-bar" style="width:100%" onClick="
+                document.querySelector('#BarChart-barInfo').textContent =
+                '36 of 81 Best of the Net winners were published here. Submit.';">
+                <div class="BarChart-barInner" style="width:75%">Boxcar Poetry Review
+                </div>
+            </div>
+            <div class="BarChart-bar" style="width:100%">
+                <div class="BarChart-barInner" style="width:40%" onClick="
+                document.querySelector('#BarChart-barInfo').textContent =
+                '18 of 81 Best of the Net winners were published here. Submit.';">Adroit Journal
+                </div>
+            </div>
+            <div class="BarChart-bar" style="width:100%">
+                <div class="BarChart-barInner" style="width:25%" onClick="
+                document.querySelector('#BarChart-barInfo').textContent =
+                '12 of 81 Best of the Net winners were published here. Submit.';">PANK
+                </div>
+            </div>
+            <div class="BarChart-bar" style="width:100%" onClick="
+                document.querySelector('#BarChart-barInfo').textContent =
+                '27 of 81 Best of the Net winners were published here. Submit.';">
+                <div class="BarChart-barInner" style="width:60%">Beloit Poetry Journal
+                </div>
+            </div>
+            <div class="BarChart-bar" style="width:100%">
+                <div class="BarChart-barInner" style="width:10%" onClick="
+                document.querySelector('#BarChart-barInfo').textContent =
+                '5 of 81 Best of the Net winners were published here. Submit.';">diode
+                </div>
+            </div>
+        </div>
+        
+        <div class="Footer">
+
+        </div>
+    </div>
+</body>
+</html>
