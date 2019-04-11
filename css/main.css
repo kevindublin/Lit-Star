@@ -42,18 +42,19 @@ h1, h2, h3, h4 {
     margin-top: 20px;
 }
 
-.BarChart-barInner:nth-child(odd){
+.BarChart-barInner:nth-of-type(odd){
     background: var(--dos-dark);
     height: 100%;
 }
 
-.BarChart-barInner:nth-child(even){
+.BarChart-barInner:nth-of-type(even){
     background: var(--dos-darker);
     height: 100%;
 }
 
 .BarChart-barInner:hover {
     background: var(--base);
+    cursor: pointer;
     transition: 0.5s;
 }
 
