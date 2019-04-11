@@ -42,6 +42,8 @@ h1, h2, h3, h4 {
     margin-top: 20px;
 }
 
+/* Not sibilings, figure out a fix later - iterate over the barchart-bar? */
+
 .BarChart-barInner:nth-of-type(odd){
     background: var(--dos-dark);
     height: 100%;
